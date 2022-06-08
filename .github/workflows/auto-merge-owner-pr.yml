@@ -5,8 +5,8 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.actor == 'automate6500' || 
-        github.actor == 'managedkaos'
+    if: github.actor == 'khanabid20' || 
+        github.actor == 'abid'
     
     steps:
     - run: echo Hello, world!
